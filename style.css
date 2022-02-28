@@ -16,6 +16,7 @@
     color: hsl(228, 45%, 44%); 
 }
 body{
+     width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
