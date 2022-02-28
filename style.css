@@ -6,7 +6,7 @@
 }
 .attribution{
     padding-top: 30px;
-    font-size: 8px;
+    font-size: 9px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,38 +16,33 @@
     color: hsl(228, 45%, 44%); 
 }
 body{
-     width: 1440px;
+    max-width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-color: hsl(212, 45%, 89%);
 }
-p{
-    line-height: 15px;
-    font-size: 15px;
-    font-weight: bold;
-}
 .first{
     line-height: 12px;
     padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     font-size: large;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 .last{
     font-weight: 400;
+    font-size: smaller;
     color: hsl(220, 15%, 55%);
     line-height: 10px;
-    padding-bottom: 10px;
 }
 .bclass {
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     width: 275px;
     height: 450px;
-    border-radius: 15px;
+    border-radius: 20px;
     padding-top: 15px;
     text-align: center;
   }
